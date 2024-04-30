@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      protocol: 'https',
-      hostname: ['i.pinimg.com'],
-    },
+  images: {
+    domains: ['i.pinimg.com'],
+  },
 }
 
 module.exports = nextConfig
